@@ -39,8 +39,6 @@ const splitter= new RecursiveCharacterTextSplitter({
 const splitDocs=await splitter.splitDocuments(docs);
 // console.log(splitDocs);
 
-
-
 const embeddings= new OpenAIEmbeddings();
 
 const vectorstore= await MemoryVectorStore.fromDocuments(

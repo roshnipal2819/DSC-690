@@ -76,5 +76,4 @@ const response= await chain.invoke({
     input: "What is it?",
     chat_history: chatHistory,
 });
-
 console.log(response);
