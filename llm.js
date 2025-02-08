@@ -11,6 +11,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
+
 // Create a function to call the Langchain API
 async function chatCompletion(text) {
   const model = new ChatOpenAI({

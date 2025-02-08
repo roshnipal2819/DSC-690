@@ -14,6 +14,7 @@ const model = new ChatOpenAI({
   temperature: 0.2,
 });
 
+
 const prompt = ChatPromptTemplate.fromTemplate(`
 You are an AI assistant.
 History: {history}

@@ -12,6 +12,7 @@ import {AIMessage} from "@langchain/core/messages";
 import {MessagesPlaceholder} from "@langchain/core/prompts";
 import {createHistoryAwareRetriever} from "langchain/chains/history_aware_retriever";
 
+
 dotenv.config();
 process.noDeprecation = true;
 
